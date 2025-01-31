@@ -18,6 +18,8 @@ defmodule ImageGeneratorWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/image-generate", GeneratorController, :index
+    get "/image-geneartor:message", GeneratorController, :show
   end
 
   # Other scopes may use custom stacks.

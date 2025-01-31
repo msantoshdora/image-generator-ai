@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :image_generator, ImageGenerator.Repo,
-  username: "postgres",
+  username: "santosh",
   password: "postgres",
   hostname: "localhost",
   database: "image_generator_dev",
